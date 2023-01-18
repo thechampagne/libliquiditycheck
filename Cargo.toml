@@ -1,0 +1,19 @@
+[package]
+name = "liquiditycheck"
+version = "1.0.0"
+description = "A library to validate if a string represents a monetary value"
+authors = ["XXIV"]
+homepage = "https://github.com/thechampagne/libliquiditycheck"
+repository = "https://github.com/thechampagne/libliquiditycheck"
+readme = "README.md"
+license = "MIT"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "liquiditycheck"
+crate-type =["cdylib","staticlib"]
+
+[dependencies]
+liquidity_check = "0.1.0"
